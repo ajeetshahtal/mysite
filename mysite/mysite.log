@@ -1,0 +1,373 @@
+[30-Mar-2016 16:24:22] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:24:22] DEBUG [django.db.backends:89] (0.002) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question`; args=()
+[30-Mar-2016 16:25:28] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:25:28] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:25:28] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:25:28] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:26:23] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:26:23] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:26:23] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:26:23] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:33:33] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:33:33] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:33:33] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:33:33] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:33:53] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:33:54] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:33:54] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:33:54] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:45:58] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:45:58] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` LIMIT 21; args=()
+[30-Mar-2016 16:47:29] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`question_text` LIKE BINARY 'What is the bes%' LIMIT 21; args=('What is the bes%',)
+[30-Mar-2016 16:48:22] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 2; args=(2,)
+[30-Mar-2016 16:48:52] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`question_text` LIKE BINARY 'What is the bes%' LIMIT 1; args=('What is the bes%',)
+[30-Mar-2016 16:48:54] DEBUG [django.db.backends:89] (0.002) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`question_text` LIKE BINARY 'What is the bes%' LIMIT 1; args=('What is the bes%',)
+[30-Mar-2016 16:48:58] DEBUG [django.db.backends:89] (0.002) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`question_text` LIKE BINARY 'What is the bes%' LIMIT 21; args=('What is the bes%',)
+[30-Mar-2016 16:49:02] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 2; args=(2,)
+[30-Mar-2016 16:49:04] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 21; args=(21,)
+[30-Mar-2016 16:52:26] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:52:26] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:52:26] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:52:26] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:52:29] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:52:29] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:52:29] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:52:29] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:52:37] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:52:37] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:52:37] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:52:37] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:52:41] ERROR [django.request:284] Internal Server Error: /polls/api/v1/question/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'question_text2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ajeets/Documents/mysite/polls/views.py", line 77, in post
+    logger.debug(request.POST['question_text2'])
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'question_text2'"
+[30-Mar-2016 16:53:21] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:53:21] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:53:21] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:53:21] DEBUG [django.db.backends:89] (0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:53:44] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:53:44] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:53:44] DEBUG [django.db.backends:89] (0.003) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:53:44] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:53:45] ERROR [django.request:284] Internal Server Error: /polls/api/v1/question/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'question_text2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.4/dist-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/ajeets/Documents/mysite/polls/views.py", line 77, in post
+    logger.debug(request.POST['question_text2'])
+  File "/usr/local/lib/python3.4/dist-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'question_text2'"
+[30-Mar-2016 16:54:28] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:54:28] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:54:28] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:54:28] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:54:45] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:54:45] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:54:45] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:54:45] DEBUG [django.db.backends:89] (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:55:17] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:55:17] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:55:17] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:55:17] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:55:27] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:55:27] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 16:55:27] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 16:55:27] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 16:57:23] DEBUG [django.db.backends:89] (0.001) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`id` = 1; args=(1,)
+[30-Mar-2016 16:58:16] DEBUG [django.db.backends:89] (0.002) UPDATE `polls_choice` SET `question_id` = 1, `choice_text` = 'Not Much', `votes` = 9 WHERE `polls_choice`.`id` = 1; args=(1, 'Not Much', 9, 1)
+[30-Mar-2016 17:01:00] DEBUG [django.db.backends:89] (0.002) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`id` = 1 LIMIT 21; args=(1,)
+[30-Mar-2016 17:02:39] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:02:39] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:02:39] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 17:02:39] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 17:02:53] DEBUG [django.db.backends:89] (0.001) UPDATE `polls_choice` SET `votes` = (`polls_choice`.`votes` + 1) WHERE `polls_choice`.`id` = 1; args=(1, 1)
+[30-Mar-2016 17:03:12] DEBUG [django.db.backends:89] (0.001) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`id` = 1 LIMIT 21; args=(1,)
+[30-Mar-2016 17:03:21] DEBUG [django.db.backends:89] (0.002) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`id` = 1 LIMIT 1; args=(1,)
+[30-Mar-2016 17:25:22] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 1; args=(1,)
+[30-Mar-2016 17:26:42] DEBUG [django.db.backends:89] (0.002) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE (`polls_choice`.`question_id` = 1 AND `polls_choice`.`id` = 1); args=(1, 1)
+[30-Mar-2016 17:32:55] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:32:55] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:32:55] DEBUG [django.db.backends:89] (0.001) SHOW FULL TABLES; args=None
+[30-Mar-2016 17:32:55] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 17:33:02] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:02] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:02] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 17:33:02] DEBUG [django.db.backends:89] (0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 17:33:13] WARNING [django.request:182] Not Found: /polls
+[30-Mar-2016 17:33:13] DEBUG [django.template:927] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/urlresolvers.py", line 404, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.core.urlresolvers.Resolver404: {'path': 'polls', 'tried': [[<RegexURLResolver <module 'polls.urls' from '/home/ajeets/Documents/mysite/polls/urls.py'> (polls:polls) ^polls/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in "<RegexURLResolver <module 'polls.urls' from '/home/ajeets/Documents/mysite/polls/urls.py'> (polls:polls) ^polls/>"
+[30-Mar-2016 17:33:13] DEBUG [django.template:927] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 134, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python3.4/dist-packages/django/core/urlresolvers.py", line 404, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.core.urlresolvers.Resolver404: {'path': 'polls', 'tried': [[<RegexURLResolver <module 'polls.urls' from '/home/ajeets/Documents/mysite/polls/urls.py'> (polls:polls) ^polls/>], [<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>]]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+[30-Mar-2016 17:33:13] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:13] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` ORDER BY `polls_question`.`pub_date` DESC LIMIT 5; args=()
+[30-Mar-2016 17:33:13] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:13] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` ORDER BY `polls_question`.`pub_date` DESC LIMIT 5; args=()
+[30-Mar-2016 17:33:15] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:15] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:15] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 21; args=(21,)
+[30-Mar-2016 17:33:15] DEBUG [django.template:927] Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in "[{'None': None, 'True': True, 'False': False}, {'request': <WSGIRequest: GET '/polls/21/'>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f31f5387c80>>, 'DEFAULT_MESSAGE_LEVELS': {'INFO': 20, 'DEBUG': 10, 'SUCCESS': 25, 'ERROR': 40, 'WARNING': 30}, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f31f40e5048>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7f31f5387bf8>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f31f54e2470>}, {}, {'question': <Question: What is the best programming language?>, 'object': <Question: What is the best programming language?>, 'view': <polls.views.DetailView object at 0x7f31f54e29e8>}]"
+[30-Mar-2016 17:33:15] DEBUG [django.db.backends:89] (0.001) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`question_id` = 21; args=(21,)
+[30-Mar-2016 17:33:18] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:18] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:18] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 12; args=(12,)
+[30-Mar-2016 17:33:18] DEBUG [django.template:927] Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in "[{'None': None, 'True': True, 'False': False}, {'request': <WSGIRequest: GET '/polls/12/'>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f31f40deb70>>, 'DEFAULT_MESSAGE_LEVELS': {'INFO': 20, 'DEBUG': 10, 'SUCCESS': 25, 'ERROR': 40, 'WARNING': 30}, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f31f4108518>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7f31f40d38c8>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f31f40e5940>}, {}, {'question': <Question: Who goes to Finals WT20?>, 'object': <Question: Who goes to Finals WT20?>, 'view': <polls.views.DetailView object at 0x7f31f40e5b00>}]"
+[30-Mar-2016 17:33:18] DEBUG [django.db.backends:89] (0.002) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`question_id` = 12; args=(12,)
+[30-Mar-2016 17:33:20] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:20] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:20] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:20] DEBUG [django.template:927] Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in "[{'None': None, 'True': True, 'False': False}, {'request': <WSGIRequest: GET '/polls/3/'>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f31f40deb70>>, 'DEFAULT_MESSAGE_LEVELS': {'INFO': 20, 'DEBUG': 10, 'SUCCESS': 25, 'ERROR': 40, 'WARNING': 30}, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f31f40fff28>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7f31f40de8c8>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f31f4108668>}, {}, {'question': <Question: Who will win the WT20?>, 'object': <Question: Who will win the WT20?>, 'view': <polls.views.DetailView object at 0x7f31f4108be0>}]"
+[30-Mar-2016 17:33:20] DEBUG [django.db.backends:89] (0.001) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`question_id` = 3; args=(3,)
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.004) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE (`polls_choice`.`question_id` = 3 AND `polls_choice`.`id` = 9); args=(3, 9)
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) UPDATE `polls_choice` SET `question_id` = 3, `choice_text` = 'India', `votes` = (`polls_choice`.`votes` + 1) WHERE `polls_choice`.`id` = 9; args=(3, 'India', 1, 9)
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:22] DEBUG [django.db.backends:89] (0.000) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`question_id` = 3; args=(3,)
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE (`polls_choice`.`question_id` = 3 AND `polls_choice`.`id` = 9); args=(3, 9)
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) UPDATE `polls_choice` SET `question_id` = 3, `choice_text` = 'India', `votes` = (`polls_choice`.`votes` + 1) WHERE `polls_choice`.`id` = 9; args=(3, 'India', 1, 9)
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:25] DEBUG [django.db.backends:89] (0.000) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`question_id` = 3; args=(3,)
+[30-Mar-2016 17:33:28] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:28] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` ORDER BY `polls_question`.`pub_date` DESC LIMIT 5; args=()
+[30-Mar-2016 17:33:29] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:29] DEBUG [django.db.backends:89] (0.001) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` ORDER BY `polls_question`.`pub_date` DESC LIMIT 5; args=()
+[30-Mar-2016 17:33:30] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:30] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:30] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:30] DEBUG [django.template:927] Exception while resolving variable 'error_message' in template 'polls/detail.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 883, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.4/dist-packages/django/template/context.py", line 77, in __getitem__
+    raise KeyError(key)
+KeyError: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 889, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 898, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error_message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/django/template/base.py", line 905, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [error_message] in "[{'None': None, 'True': True, 'False': False}, {'request': <WSGIRequest: GET '/polls/3/'>, 'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x7f31f40d3488>>, 'DEFAULT_MESSAGE_LEVELS': {'INFO': 20, 'DEBUG': 10, 'SUCCESS': 25, 'ERROR': 40, 'WARNING': 30}, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f31f4083a90>, 'user': <SimpleLazyObject: <function AuthenticationMiddleware.process_request.<locals>.<lambda> at 0x7f31f40d3ae8>>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f31f40e5128>}, {}, {'question': <Question: Who will win the WT20?>, 'object': <Question: Who will win the WT20?>, 'view': <polls.views.DetailView object at 0x7f31f40e5c88>}]"
+[30-Mar-2016 17:33:30] DEBUG [django.db.backends:89] (0.002) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`question_id` = 3; args=(3,)
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.003) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE (`polls_choice`.`question_id` = 3 AND `polls_choice`.`id` = 9); args=(3, 9)
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) UPDATE `polls_choice` SET `question_id` = 3, `choice_text` = 'India', `votes` = (`polls_choice`.`votes` + 1) WHERE `polls_choice`.`id` = 9; args=(3, 'India', 1, 9)
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` WHERE `polls_question`.`id` = 3; args=(3,)
+[30-Mar-2016 17:33:33] DEBUG [django.db.backends:89] (0.000) SELECT `polls_choice`.`id`, `polls_choice`.`question_id`, `polls_choice`.`choice_text`, `polls_choice`.`votes` FROM `polls_choice` WHERE `polls_choice`.`question_id` = 3; args=(3,)
+[30-Mar-2016 17:33:36] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:36] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` ORDER BY `polls_question`.`pub_date` DESC LIMIT 5; args=()
+[30-Mar-2016 17:33:36] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:33:36] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question` ORDER BY `polls_question`.`pub_date` DESC LIMIT 5; args=()
+[30-Mar-2016 17:34:01] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:34:01] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:34:01] DEBUG [django.db.backends:89] (0.000) SHOW FULL TABLES; args=None
+[30-Mar-2016 17:34:01] DEBUG [django.db.backends:89] (0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+[30-Mar-2016 17:34:31] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:34:31] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question`; args=()
+[30-Mar-2016 17:35:29] DEBUG [django.db.backends:89] (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+[30-Mar-2016 17:35:29] DEBUG [django.db.backends:89] (0.000) SELECT `polls_question`.`id`, `polls_question`.`question_text`, `polls_question`.`pub_date` FROM `polls_question`; args=()

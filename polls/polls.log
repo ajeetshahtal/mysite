@@ -1,0 +1,13 @@
+[30-Mar-2016 16:24:24] DEBUG [polls.views:88] Data saved successfully
+[30-Mar-2016 16:52:41] DEBUG [polls.views:76] What is the best programming language?
+[30-Mar-2016 16:53:26] DEBUG [polls.views:76] What is the best programming language?
+[30-Mar-2016 16:53:26] DEBUG [polls.views:77] What is the best programming language?
+[30-Mar-2016 16:53:26] DEBUG [polls.views:91] Data saved successfully
+[30-Mar-2016 16:53:45] DEBUG [polls.views:76] What is the best programming language?
+[30-Mar-2016 16:54:29] DEBUG [polls.views:76] What is the best programming language?
+[30-Mar-2016 16:54:29] DEBUG [polls.views:77] not found
+[30-Mar-2016 16:54:29] DEBUG [polls.views:91] Data saved successfully
+[30-Mar-2016 17:34:38] DEBUG [polls.views:90] Data saved successfully
+[30-Mar-2016 17:35:36] DEBUG [polls.views:90] Data saved successfully
+[30-Mar-2016 17:35:48] DEBUG [polls.views:90] Incorrect form parameters
+[30-Mar-2016 17:35:53] DEBUG [polls.views:90] Data saved successfully

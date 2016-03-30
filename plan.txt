@@ -1,0 +1,4 @@
+* views
+* update
+* delete
+* complete polls app
