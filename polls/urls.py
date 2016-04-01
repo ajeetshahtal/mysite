@@ -17,9 +17,18 @@ urlpatterns = [
 	# ex: /polls/5/vote/
 	url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
 
+	
+	# RESTFUL APIs
+	
 	# GET http://127.0.0.1:8000/polls/api/v1/questions/
 	url(r'^api/v1/questions/$', views.QuestionsView.as_view(), name='questions'),
 
 	# POST http://127.0.0.1:8000/polls/api/v1/question/
 	url(r'^api/v1/question/$', views.QuestionView.as_view(), name='question'),
+
+	# POST http://127.0.0.1:8000/polls/api/v1/question/
+	url(r'^api/v1/question/$', views.QuestionView.as_view(), name='question'),
+
+	# POST http://127.0.0.1:8000/polls/api/v1/question/question_id
+	url(r'^api/v1/question/(?P<question_id>[0-9]+)$', views.questionUpdate, name='question_update'),
 ]

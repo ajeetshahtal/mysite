@@ -16,7 +16,7 @@ class IndexView(generic.ListView):
 
 	def get_queryset(self):
 		"""Return the last five published question."""
-		return Question.objects.order_by('-pub_date')[:5]
+		return Question.objects.order_by('-pub_date')[:10]
 
 class DetailView(generic.DetailView):
 	model = Question
@@ -55,12 +55,12 @@ def vote(request, question_id):
 		}
 		return render(request, 'polls/detail.html', context)
 	else:
-		# selected_choice.votes += 1
 		selected_choice.votes = F('votes') + 1
 		selected_choice.save()
 		return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
 
 class QuestionsView(generic.View):
+	
 	def get(self, request, *args, **kwargs):
 		questions = Question.objects.all()
 		json_data = serializers.serialize('json', questions)
@@ -76,16 +76,51 @@ class QuestionView(generic.View):
 		question_text = request.POST.get('question_text', '')
 
 		if(question_text):
-			q = Question(question_text=question_text, pub_date=timezone.now())
-			# q.save()
-			json_data['id'] = q.id
-			json_data['question_text'] = q.question_text
-			json_data['pub_date'] = q.pub_date
-			json_data['status'] = True
-			json_data['message'] = 'Data saved successfully'
+			try:
+				q = Question(question_text=question_text, pub_date=timezone.now())
+			except (Question.DoesNotExist, Exception):
+				status = True
+				message = 'Question does not exist'
+			else:
+				q.save()
+				json_data['id'] = q.id
+				json_data['question_text'] = q.question_text
+				json_data['pub_date'] = q.pub_date
+				status = True
+				message = 'Data saved successfully'
 		else:
-			json_data['status'] = False
-			json_data['message'] = 'Incorrect form parameters'
+			status = False
+			message = 'Incorrect form parameters'
 		
+		json_data['status'] = status
+		json_data['message'] = message
 		logger.debug(json_data['message'])
 		return JsonResponse(json_data)
+
+def questionUpdate(request, question_id):
+
+	json_data = {}
+	logger = logging.getLogger(__name__)
+	question_text = request.POST.get('question_text', '')
+
+	if(question_text and question_id):
+		try:
+			q = Question.objects.get(id=question_id)
+		except (Question.DoesNotExist, Exception):
+			status = False
+			message = 'Question does not exist'
+		else:
+			q.question_text = question_text
+			q.save()
+			json_data['id'] = q.id
+			json_data['question_text'] = q.question_text
+			status = True
+			message = 'Data updated successfully'
+	else:
+		status = False
+		message = 'Incorrect form parameters'
+
+	json_data['status'] = status
+	json_data['message'] = message
+	logger.debug(message)
+	return JsonResponse(json_data)
