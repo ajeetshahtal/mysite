@@ -1,1 +1,2 @@
-[04-Apr-2016 12:57:08] DEBUG [polls.views:97] test +++
+[04-Apr-2016 14:51:52] DEBUG [polls.views:53] Get all questions
+[04-Apr-2016 14:54:54] DEBUG [polls.views:53] Get all questions

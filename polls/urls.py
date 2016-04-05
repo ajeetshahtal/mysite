@@ -13,7 +13,8 @@ urlpatterns = [
 	url(r'^(?P<question_id>[0-9]+)/vote/$', views.vote, name='vote'),
 
 	
-	# REST APIs
+	# REST APIs urls
+
 	url(r'^api/v1/questions/$', views.QuestionsView.as_view(), name='questions'),
-	url(r'^api/v1/questions/(?P<question_id>[0-9]+)/$', views.QuestionsIdView.as_view(), name='questionsId'),
+	url(r'^api/v1/questions/(?P<question_id>[0-9]+)/$', views.QuestionsIdView.as_view(), name='questions_id'),
 ]

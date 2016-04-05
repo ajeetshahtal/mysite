@@ -1,2 +1,10 @@
-* complete polls app
+* django rest framework
+* Auth middleware
+
 * assignment APIs
+
+* complete polls app
+
+* Json in Python
+
+* head first design  pattern
